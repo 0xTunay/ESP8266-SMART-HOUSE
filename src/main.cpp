@@ -1,8 +1,9 @@
-#include <ESP8266WiFi.h>
-#include< "ESP8266WebServer.h>
+#include "../lib/Arduino/libraries/ESP8266WebServer/src/ESP8266WebServer.h"
+#include "../lib/Arduino/libraries/ESP8266WebServer/src/ESP8266WebServer.h"
+#include "../lib/Arduino/libraries/ESP8266WiFi/src/ESP8266WiFi.h"
 
-const char* ssid = "zte08";
-const char* password = "23021921k";
+const char* ssid = "XXX";
+const char* password = "XXX";
 
 ESP8266WebServer server(80);
 
