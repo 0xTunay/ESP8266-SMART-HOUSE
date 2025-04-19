@@ -30,7 +30,7 @@ void setup() {
     server.begin();
     Serial.println("HTTP сервер запущен");
 }
-
+/*TEST SSH COMMIT*/
 void loop() {
     server.handleClient();
 }
