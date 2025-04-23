@@ -40,7 +40,8 @@ test-results/
 .env.*
 *.secret
 secrets/
-
+*.pio
+*.idea
 *.DS_Store
 Thumbs.db
 
